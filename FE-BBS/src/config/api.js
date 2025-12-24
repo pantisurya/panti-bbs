@@ -2,7 +2,7 @@
 // API Configuration
 export const apiConfig = {
   // Use relative /api by default so dev server proxy can forward requests to backend
-  baseURL: "https://panti-backend.onrender.com",
+  baseURL: "https://panti-backend.onrender.com/api",
   timeout: parseInt(import.meta.env.VITE_API_TIMEOUT) || 30000,
 
   // API Endpoints
